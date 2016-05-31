@@ -14,6 +14,12 @@
 		DDED29701CFC6D1B00A0561F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED296E1CFC6D1B00A0561F /* LaunchScreen.storyboard */; };
 		DDED297B1CFC6D1B00A0561F /* ultraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED297A1CFC6D1B00A0561F /* ultraTests.swift */; };
 		DDED29861CFC6D1B00A0561F /* ultraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED29851CFC6D1B00A0561F /* ultraUITests.swift */; };
+		DDED29941CFC6DAE00A0561F /* img01.png in Resources */ = {isa = PBXBuildFile; fileRef = DDED29931CFC6DAE00A0561F /* img01.png */; };
+		DDED29981CFC78D200A0561F /* ultra.png in Resources */ = {isa = PBXBuildFile; fileRef = DDED29971CFC78D200A0561F /* ultra.png */; };
+		DDED299B1CFC7F0200A0561F /* hey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDED29991CFC7F0200A0561F /* hey.mp3 */; };
+		DDED299C1CFC7F0200A0561F /* ultrasoul.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDED299A1CFC7F0200A0561F /* ultrasoul.mp3 */; };
+		DDED299E1CFC7F7C00A0561F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDED299D1CFC7F7C00A0561F /* AVFoundation.framework */; };
+		DDED29A01CFC84DA00A0561F /* shah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDED299F1CFC84DA00A0561F /* shah.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		DDED29811CFC6D1B00A0561F /* ultraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ultraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDED29851CFC6D1B00A0561F /* ultraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ultraUITests.swift; sourceTree = "<group>"; };
 		DDED29871CFC6D1B00A0561F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDED29931CFC6DAE00A0561F /* img01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img01.png; sourceTree = "<group>"; };
+		DDED29971CFC78D200A0561F /* ultra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultra.png; sourceTree = "<group>"; };
+		DDED29991CFC7F0200A0561F /* hey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hey.mp3; sourceTree = "<group>"; };
+		DDED299A1CFC7F0200A0561F /* ultrasoul.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ultrasoul.mp3; sourceTree = "<group>"; };
+		DDED299D1CFC7F7C00A0561F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDED299F1CFC84DA00A0561F /* shah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = shah.mp3; path = ../../shah.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDED299E1CFC7F7C00A0561F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +90,7 @@
 		DDED29591CFC6D1B00A0561F = {
 			isa = PBXGroup;
 			children = (
+				DDED299D1CFC7F7C00A0561F /* AVFoundation.framework */,
 				DDED29641CFC6D1B00A0561F /* ultra */,
 				DDED29791CFC6D1B00A0561F /* ultraTests */,
 				DDED29841CFC6D1B00A0561F /* ultraUITests */,
@@ -103,6 +117,11 @@
 				DDED296C1CFC6D1B00A0561F /* Assets.xcassets */,
 				DDED296E1CFC6D1B00A0561F /* LaunchScreen.storyboard */,
 				DDED29711CFC6D1B00A0561F /* Info.plist */,
+				DDED29931CFC6DAE00A0561F /* img01.png */,
+				DDED29971CFC78D200A0561F /* ultra.png */,
+				DDED29991CFC7F0200A0561F /* hey.mp3 */,
+				DDED299A1CFC7F0200A0561F /* ultrasoul.mp3 */,
+				DDED299F1CFC84DA00A0561F /* shah.mp3 */,
 			);
 			path = ultra;
 			sourceTree = "<group>";
@@ -229,9 +248,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDED299C1CFC7F0200A0561F /* ultrasoul.mp3 in Resources */,
 				DDED29701CFC6D1B00A0561F /* LaunchScreen.storyboard in Resources */,
+				DDED29A01CFC84DA00A0561F /* shah.mp3 in Resources */,
 				DDED296D1CFC6D1B00A0561F /* Assets.xcassets in Resources */,
+				DDED29941CFC6DAE00A0561F /* img01.png in Resources */,
+				DDED299B1CFC7F0200A0561F /* hey.mp3 in Resources */,
 				DDED296B1CFC6D1B00A0561F /* Main.storyboard in Resources */,
+				DDED29981CFC78D200A0561F /* ultra.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
